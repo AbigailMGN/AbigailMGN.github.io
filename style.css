@@ -5,3 +5,20 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#maquina{
+    width: 13ch;
+    position: center;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(13), blinking 1s;
+}
+@keyframes typing{
+    from {
+        width: 0;
+    }
+}
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
