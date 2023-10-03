@@ -11,6 +11,18 @@ body{
     overflow: hidden;
     animation: typing 2s steps(13), blinking 1s;
 }
+#maquina2{
+    width: 31ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(31), blinking 1s;
+}
+#maquina3{
+    width: 22ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(31), blinking 1s;
+}
 @keyframes typing{
     from {
         width: 0;
