@@ -38,3 +38,29 @@ img{
     border-style: outset;
     border-color: grey;
 }
+.texto-piscando{
+    color: brown;
+    margin: 2rem 0rem;
+    text-align: center;
+    animation: piscapisca 4s infinite;
+}
+@keyframes piscapisca{
+    0% {color: red};
+    10%{color: red}
+    15%{color: red};
+    20%{color: black};
+    25%{color: black};
+    35%{color: red};
+    40%{color: red};
+    45%{color: black};
+    50%{color: red};
+    60%{color: red};
+    65%{color: black};
+    70%{color: red};
+    75%{color: red};
+    85%{color: red};
+    90%{color: red};
+    95%{color: black};
+    100%{color: red};
+
+}
