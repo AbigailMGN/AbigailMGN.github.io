@@ -7,7 +7,6 @@ body{
 }
 #maquina{
     width: 13ch;
-    position: center;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2s steps(13), blinking 1s;
@@ -21,4 +20,9 @@ body{
     50% {
         border-color: transparent;
     }
+}
+img{
+    border-width: 2px;
+    border-style: outset;
+    border-color: grey;
 }
